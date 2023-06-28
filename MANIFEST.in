@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include samden *.css
+recursive-include samden *.csv
+recursive-include samden *.html
+recursive-include samden *.ico
+recursive-include samden *.js
+recursive-include samden *.json
+recursive-include samden *.md
+recursive-include samden *.png
+recursive-include samden *.py
+recursive-include samden *.svg
+recursive-include samden *.txt
+recursive-exclude samden *.pyc
